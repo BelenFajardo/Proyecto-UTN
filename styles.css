@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #fcfcfc;
 }
 
 header {
@@ -329,7 +330,7 @@ header {
         background-color: transparent;
     }
 
-    
+
 }
 
 .aboutme-section .SobreMi {
@@ -531,15 +532,15 @@ div.Galeria {
     margin-top: 150px;
     margin-left: 80px;
     width: 500px;
-  }
-  
+}
+
 div.Galeria:hover {
     border: 2px solid #777;
-  }
-  
+}
+
 div.Galeria img {
     width: 100%;
-  }
+}
 
 
 .ComoTrabajo-section {
@@ -571,7 +572,7 @@ div.Galeria img {
     line-height: 25px;
     text-transform: none;
 }
-  
+
 .ComoTrabajo-content ul {
     position: absolute;
     padding-top: 120px;
@@ -588,8 +589,8 @@ div.Galeria img {
     font-weight: 300;
     line-height: 25px;
     text-transform: none;
-    margin-left: 250px;
-    text-align: center;
+    
+    
 }
 
 .Testimonios-section {
@@ -612,3 +613,93 @@ div.Galeria img {
     line-height: 50px;
     text-transform: capitalize;
 }
+
+.Testimonios-content .Testimonios  {
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    height: 60%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.contacto-content h2 {
+    color:#254775;
+    position: absolute;
+    margin-top: 2000px;
+    left: 350px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+form {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 10%;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.form-container {
+    position: absolute;
+    margin-top: 2000px;
+    left: 950px;
+
+}
+
+input, textarea {
+    font-family: inherit;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.textoformulario-container p {
+    color:#777;
+    position: absolute;
+    margin-top: 2050px;
+    left: 350px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 50px;
+    text-transform: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #254775;
+    color: #ffff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+
+.volverarriba  {
+    color:#254775;
+    position: absolute;
+    margin-top: 2650px;
+    left: 850px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
